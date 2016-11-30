@@ -4,5 +4,95 @@
 img{
     width: 100%;
 }
-/*-------------------------------------header---*//
-header
+/*-------------------------------------header---*/
+header{
+    background-color: #E8E6E1;
+    padding: 12px;
+}
+.list-inline{
+    float: right;
+    font-size: 20px;
+}
+.list-inline a{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+.list-inline li:hover{
+    padding: 10px;
+    background: #D1CFCB; 
+}
+header p{
+    font-size: 25px;
+}
+/*--------------------chicas--------------del---mundo---*/
+.mundo .container-fluid{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/home.jpg);
+    background-position: center;
+}
+
+.text-center{
+   padding: 10px;
+    position: relative;
+    top:10em;
+}
+.text-center h1{
+  color: white;
+}
+.text-center p{
+  font-size: 18px;  
+}
+.mundo button{
+    width: 150px;
+    padding: 10px;
+    border-radius:10px;
+    background: #5493D1;
+    border: none;
+    color: white;
+    font-size: 22px;
+}
+/*----------------------------section--container--video--*/
+.mundo .container{
+    text-align: center;
+    margin-top: 50px;
+}
+.mundo .col-md-6{
+    margin-bottom: 45px;
+}
+.mundo .container h2{
+    margin: 30px;
+}
+.code-girls p{
+    font-size: 16px;
+}
+
+/*---------------------------section---------------hackathon-----*/
+.hackathon{
+    margin: 20px;
+    padding: 40px 0;
+    background-color: yellow;
+}
+
+.chica h3{
+    text-align: center;  
+}
+.chica p {
+    font-size: 15px;
+}
+.chica button {
+    margin-top: 12px;
+    width: 140px;
+    padding: 8px;
+    border-radius:10px;
+    background: #5493D1;
+    border: none;
+    color: white;
+    font-size: 22px;
+}
+
+
+
+
+
