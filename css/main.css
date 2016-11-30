@@ -91,7 +91,38 @@ header p{
     color: white;
     font-size: 22px;
 }
+/*--------------------section--cuatro--*/
+.cuatro{
+    padding: 40px;
+}
+.input input{
+    width: 300px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.input textarea{
+    width:300px; 
+    height: 130px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.input button{
+    width: 120px;
+    background-color:#5493D1;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    padding: 7px;
+}
 
+h3{
+    font-size: 28px;
+}
+/*-------------------------footer------------------*/
+footer{
+    padding: 40ppx;
+}
 
 
 
