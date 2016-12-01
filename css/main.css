@@ -5,26 +5,7 @@ img{
     width: 100%;
 }
 /*-------------------------------------header---*/
-header{
-    background-color: #E8E6E1;
-    padding: 12px;
-}
-.list-inline{
-    float: right;
-    font-size: 20px;
-}
-.list-inline a{
-    text-decoration: none;
-    color: black;
-    margin: 15px;
-}
-.list-inline li:hover{
-    padding: 10px;
-    background: #D1CFCB; 
-}
-header p{
-    font-size: 25px;
-}
+
 /*--------------------chicas--------------del---mundo---*/
 .mundo .container-fluid{
     width: 100%;
@@ -121,7 +102,13 @@ h3{
 }
 /*-------------------------footer------------------*/
 footer{
-    padding: 40ppx;
+    padding: 30px;
+    background: #3E959B;
+    font-size: 18px;
+    color: white;
+}
+footer span{
+    color: yellow;
 }
 
 

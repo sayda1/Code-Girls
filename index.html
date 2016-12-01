@@ -9,29 +9,35 @@
 </head>
 <body>
    <!------------------------------------header----------------->
-	<header>
-	    <div class="container">
-           <div class="row">
-              <div class="col-md-6">
-                 <p>Code Girls</p>
-              </div>
-              <div class="col-md-6">
-                 <nav class="collague">
-                      <ul class="list-inline">
-                          <li><a href="#">Inicio</a>
+	<div class="conatiner">
+        <br>
+        <header>
+            <nav class="navbar navbar-default">
+               <div class="container-fluid">
+                 <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+                          <span class="sr-header"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      <a href="#" class="navbar-brand">code girls</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="navbar-1">
+                      <ul class="nav navbar-nav navbar-right">
+                          <li><a href="">estudio1</a></li>
+                          <li class="active"><a href="">estudio2</a></li>
+                          <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">estudio3 
+                          <span class="caret"></span></a>
                           </li>
-                          <li><a 
-                          href="#">Documental</a>
-                          </li>
-                          <li><a 
-                          href="#">Hackathon</a></li>
-                          <li><a href="#">Contacto</a></li>
                       </ul>
-                  </nav>
-              </div>
-           </div>
-	    </div>
-	</header>
+                  </div>
+               </div>
+            </nav>
+        </header>
+	    
+	</div>
 	<!---------------------chicas del mundo--->
 	<section class="mundo" id="inicio">
 	  <div class="container-fluid">
@@ -121,9 +127,10 @@
 	        
 	    </div>
 	</section>
+	<!----------------------------------footer---->
 	<footer>
     <div class="container">
-        <p>&copy; 2016 Code Girls por <span>Laboratoria</span></p>
+        <p>&copy; 2016 Code Girls.Diseñado por <span>Laboratoria</span></p>
     </div>
 	</footer>
 </body>
