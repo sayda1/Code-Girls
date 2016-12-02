@@ -12,41 +12,48 @@
 </head>
 <body>
    <!------------------------------------header----------------->
-    <div class="container">   
-       <br>
-        <header>
-            <nav class="navbar navbar-default">
-               <div class="container-fluid">
-                 <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-1">
-                          <span class="sr-header"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                      </button>
-                      <a href="#" class="navbar-brand">code girls</a>
-                  </div>
-                  <div class="collapse navbar-collapse" id="navbar-1">
-                      <ul class="nav navbar-nav navbar-right">
-                          <li class="active"><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">estudio1</a>
-                          </li>
-                          <li class="active">
-                          <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">estudio2</a>
-                          </li>
-                          <li class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">estudio3 
-                          </a>
-                          </li>
-                          <li class="active" ><a href="#"class="dropdown-toggle" data-toggle="dropdown" role="button">estudio4</a> 
-                          </li>
-                      </ul>
-                  </div>
-               </div>
+   <header class="menu">
+    <div class="container"> 
+      <div class="row">
+       <div class="col-md-3 col-sm-12 col-xs-6">
+          <h2>Code Girls</h2>
+        </div>
+       
+        <div class="col-md-9 col-sm-12 col-xs-6">
+            <div class="visible-xs text-right">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+             <span class="sr-header"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             </button>
+            </div>
+            
+            <nav class="hidden-xs">
+             <ul class=" desktop-menu list-inline text-right">
+               <li><a href="#">Inicio</a></li>
+               <li><a href="#documental">Documental</a></li>
+               <li><a href="#hackathon">Hackathon</a></li>
+               <li><a href="#formulario">Contacto</a></li>
+             </ul>
+           </nav>
+        </div>
+           </div>
+           <nav class="visible-xs">
+               <div id="main-navigation" class="collapse">
+                    <ul class="mobile-menu text-right">
+                       <li><a href="#">Inicio</a></li>
+                       <li><a href="#documental">Documental</a></li>
+                       <li><a href="#hackathon">Hackathon</a></li>
+                       <li><a href="#formulario">Contacto</a></li>
+                    </ul>
+                </div>
             </nav>
-        </header>
-	</div>
+         </div>
+      </header>
 	<!---------------------chicas del mundo--->
-	<section class="mundo" id="inicio">
-	  <div class="container-fluid">
+	<section class="participa" id="inicio">
+	  <div class="container">
 	      <div class="text-center">
               <h1>CHICAS QUE CAMBIAN EL MUNDO</h1>
               <P>!Participa en nustras actividades!</P>
@@ -54,8 +61,10 @@
 	          
 	      </div>
 	  </div>
+    </section>
 	  <!--------------------------------------section----container---video------>
-	  <div class="container">
+	  <section class="mundo" id="inicio">
+	  <div class="container" id="documental">
 	      <h2>VE NUESTRO DOCUMENTAL</h2>
 	      <div class="row">
 	          <div class="col-md-6">
@@ -81,7 +90,7 @@
 	  </div>  
 	</section>
 	<!---------------------------------------------------------section-----------------hackathon--->
-	<section class="hackathon">
+	<section class="hackathon" id="hackathon" >
 	    <div class="container">
 	      <div class="row">
 	          <div class="col-md-6">
@@ -100,15 +109,14 @@
 	      </div>  
 	    </div>
 	    </section>
-	    <!------------------------------------------
-	    contactanos.......--->
-	    <section class="cuatro">
+	    <!------------------------------------------ contactanos.......--->
+	    <section class="cuatro" id="formulario">
 	    <div class="container">
             <div class="row">
-               <div class="col-md-7">
-                   <img src="img/made_with_code.jpg" alt="">
+               <div class="col-md-8">
+                   <img src="img/made_with_code.jpg" alt="" width="100%" height="auto" style="padding-top:7%" class="img-responsive">
                </div>
-               <div class="col-md-5">
+               <div class="col-md-4">
                  <div class="contacto">
                      <h3>CONTACTO</h3>
                       <span>Code Girls</span>

@@ -1,15 +1,60 @@
-*{
-    outline: 1px solid red;
-}
+
 img{
     width: 100%;
 }
+
 /*-------------------------------------header---*/
+header {
+  background-color: #e7e7eb;
+  width: 100%;
+}
+  
+.menu{
+  z-index: 1;
+ position: fixed;
+}
+.icon-bar{
+    background: black;
+}
+
+
+nav li a{
+	display: block;
+	padding: 18px 15px;
+	transition: all 0.2s;
+	border-radius: 6px;
+    color: black;
+    margin: 12px;
+}
+nav li a:hover, nav li a:focus, nav li a:active{
+	text-decoration: none;
+	outline: none;
+	background: #bfb8b8;
+    color: white;
+}
+
+#main-navigation
+{
+	position: absolute;
+	right: 10px;
+	margin: 10px 0 0 0;
+}
+#main-navigation ul
+{
+	background: rgba(40, 40, 178, 0.56);
+	list-style: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.boton {
+    margin: 12px 0;
+}
 
 /*--------------------chicas--------------del---mundo---*/
-.mundo .container-fluid{
+.participa{
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-image: url(../img/home.jpg);
     background-position: center;
 }
@@ -17,7 +62,7 @@ img{
 .text-center{
    padding: 10px;
     position: relative;
-    top:10em;
+    top:12em;
 }
 .text-center h1{
   color: white;
@@ -25,7 +70,7 @@ img{
 .text-center p{
   font-size: 18px;  
 }
-.mundo button{
+.participa button{
     width: 150px;
     padding: 10px;
     border-radius:10px;
@@ -51,7 +96,6 @@ img{
 
 /*---------------------------section---------------hackathon-----*/
 .hackathon{
-    margin: 20px;
     padding: 40px 0;
     background-color: yellow;
 }
@@ -76,17 +120,7 @@ img{
 .cuatro{
     padding: 40px;
 }
-.input input{
-    width: 300px;
-    border-radius: 3px;
-    font-size: 15px;
-}
-.input textarea{
-    width:300px; 
-    height: 130px;
-    border-radius: 3px;
-    font-size: 15px;
-}
+
 .input button{
     width: 120px;
     background-color:#5493D1;
@@ -110,7 +144,34 @@ footer{
 footer span{
     color: yellow;
 }
+/*---------------------------------------------------------------------@media---sssss------------------*/
 
-
-
+@media screen and (max-width:990px) and (min-width:768px){
+    
+    .text-center{
+        position: relative;
+        top:18em;
+    }
+    .desktop-menu {
+        padding: 0;
+        width: 100%;
+        display: inline-block;
+        margin-top: 7px;
+    }
+     .desktop-menu a{
+        padding: 20px 10px;
+        font-size: 12px;
+        margin: 0px;
+    }
+}
+@media screen and (max-width:990px) and (min-width:768px){
+    
+    .menu .row>div{
+        width: 50%;
+        text-align: left;
+    }
+    .menu h2 {
+        font-size: 25px;
+    }
+}
 
